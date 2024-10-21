@@ -1,0 +1,70 @@
+  :root {
+            --primary: #5289b5;
+            --secondary: #afd8f2;
+            --light: #edf2f3;
+            --dark: #1f3541;
+        }
+
+        .unit-5 {
+            background-size: cover;
+            height: 300px;
+        }
+
+        .overlay {
+            position: relative;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .job-details {
+            padding: 30px;
+           
+            border-radius: 5px;
+        }
+
+        .badge-fulltime {
+            background-color: var(--secondary);
+            color: var(--dark);
+            font-size: 14px;
+            padding: 5px 10px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .fa-icon {
+            color: var(--primary);
+            margin-right: 10px;
+        }
+
+        .short-job-info {
+            padding: 20px;
+            background-color: var(--light);
+            border-radius: 5px;
+        }
+
+        .btn-visit {
+            background-color: var(--primary);
+            color: #fff;
+            width: 100%;
+        }
+
+        .btn-visit:hover {
+            background-color: var(--dark);
+        }
+
+        .btn-dark {
+            background-color: var(--dark);
+            color: #fff;
+        }
+
+        .btn-dark:hover {
+            background-color: var(--primary);
+        }
+
+        .text-black {
+            color: var(--dark);
+        }
